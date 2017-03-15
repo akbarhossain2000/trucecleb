@@ -1,0 +1,144 @@
+/* Desktop Layout: 1800px. */
+@media (min-width: 992px){
+	.slicknav_menu{
+		display:none;
+	}
+	
+	.home-menu{
+		display:block;
+	}
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.single-footer-widget{
+		width:20% !important;
+	}
+	
+	.slicknav_menu{
+		display:none;
+	}
+	
+	.home-menu{
+		display:block;
+	}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.single-footer-widget{
+		width:30% !important;
+	}
+	
+	.slicknav_menu{
+		display:none;
+	}
+	
+	.menu{
+		display:block;
+	}
+	
+	.home-menu-two{
+		display:none !important;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.single-footer-widget{
+		width:100% !important;
+	}
+	
+	.slicknav_menu{
+		display:block;
+	}
+	
+	.menu{
+		display:none;
+	}
+	
+	.slider-caption p {
+	  font-size: 13px;
+	  font-weight: 300;
+	  line-height: 20px;
+	  margin-left: 10px;
+	}
+	
+	.slider-caption {
+	  background: #fff none repeat scroll 0 0;
+	  bottom: 0;
+	  color: #252525;
+	  left: 40px;
+	  padding: 7px;
+	  position: absolute;
+	  text-align: left;
+	  width: 249px;
+	}
+	
+	.home-menu-two{
+		display:none !important;
+	}
+	
+	.home-menu {
+	  background: #252525 none repeat scroll 0 0;
+	  color: #dfdfdf;
+	  left: 0;
+	  padding: 7px;
+	  position: absolute;
+	  top: -50px;
+	  width: 150px;
+	}
+	
+	.slider-left-btn-two, .slider-right-btn-two {
+		top: 62%;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.single-footer-widget{
+		width:100% !important;
+	}
+	
+	.slicknav_menu{
+		display:block;
+	}
+	
+	.menu{
+		display:none;
+	}
+	
+	.slider-caption p {
+	  font-size: 13px;
+	  font-weight: 300;
+	  line-height: 20px;
+	  margin-left: 10px;
+	}
+	
+	.slider-caption {
+	  background: #fff none repeat scroll 0 0;
+	  bottom: 0;
+	  color: #252525;
+	  left: 40px;
+	  padding: 7px;
+	  position: absolute;
+	  text-align: left;
+	  width: 249px;
+	}
+	
+	.home-menu-two{
+		display:none !important;
+	}
+	
+	.home-menu {
+	  background: #252525 none repeat scroll 0 0;
+	  color: #dfdfdf;
+	  left: 0;
+	  padding: 7px;
+	  position: absolute;
+	  top: -50px;
+	  width: 150px;
+	}
+	
+	.slider-left-btn-two, .slider-right-btn-two {
+		top: 62%;
+	}
+}

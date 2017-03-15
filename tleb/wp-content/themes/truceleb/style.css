@@ -1,0 +1,30 @@
+/*
+Theme Name: Trucecleb
+Developer: Imran Hossain
+Version: 1.0.0
+*/
+
+.wp-caption p.wp-caption-text{
+	text-align: center;
+}
+
+.comments{
+	margin-bottom: 30px;
+}
+
+
+/*----- Pagination -----*/
+
+.pagination ul li span.current{
+	background: #8a1b79;
+}
+.pagination ul li span {
+	background: #a1a1a1 none repeat scroll 0 0;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 6px 14px;
+	text-align: center;
+}
+
+/*----- Pagination -----*/
